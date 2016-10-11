@@ -1,0 +1,59 @@
+﻿@model CJWechatLogin.Models.WX_UserRecord
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>登录成功</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        .headImg {
+            text-align: center;
+            margin: 20px 0 20px 0;
+        }
+            .headImg img {
+                text-align: center;
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+            }
+
+        .info {
+            color: #6f6f6f;
+            margin-top: 6px;
+        }
+
+        .container {
+            font-size: 20px;
+            font-family: "微软雅黑";
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="headImg">
+        <img src="@Model.HeadImgUrl" />
+    </div>
+    <div class="container">
+        <div class="info">
+            nickname: @Model.Nickname
+        </div>
+        <div class="info">
+            sex: @Model.Sex
+        </div>
+        <div class="info">
+            province: @Model.Province
+        </div>
+        <div class="info">
+            city: @Model.City
+        </div>
+        <div class="info">
+            country: @Model.Country
+        </div>
+    </div>
+</body>
+</html>

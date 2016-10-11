@@ -1,0 +1,67 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <style>
+        #qrcode-container {
+            width: 256px;
+            height: 256px;
+            margin: 0 auto;
+        }
+
+        .author_tip {
+            margin: 20px auto;
+            width: 256px;
+            margin-top: 50px;
+            color: #a06b06;
+            font-family: "微软雅黑";
+            line-height: 150%;
+            font-size: 18px;
+        }
+
+            .author_tip div {
+                width: 100%;
+                text-align: right;
+                font-size: 15px;
+            }
+    </style>
+</head>
+<body>
+    <div class="author_tip">
+        PC端微信扫码授权登录<br />
+        <div>-- Cboyce  2016-9-13</div>
+    </div>
+
+    <!--生成二维码的容器 div-->
+    <div id="qrcode-container">
+    </div>
+
+    <script src="~/Plugins/Jquery/jquery-1.9.1.min.js"></script>
+    <script src="~/Plugins/jquery-qrcode/jquery.qrcode.min.js"></script>
+    <script>
+        jQuery(function () {
+            //生成二维码           
+            jQuery('#qrcode-container').qrcode("@ViewBag.url");
+
+            //轮询判断用户是否授权
+            var interval = setInterval(function () {
+                $.post("@Url.Action("UserIsLogin", "Home")", { "uuid": "@ViewBag.uuid" }, function (data, status) {
+                    if ("success" == status) {
+                        //用户成功授权=>跳转
+                        if ("success" == data) {
+                            window.location.href = '@Url.Action("Index", "Home")';
+                            clearInterval(interval);
+                        }
+                    }
+                });
+            }, 200);
+        })
+    </script>
+</body>
+</html>

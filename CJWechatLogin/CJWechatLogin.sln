@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CJWechatLogin", "CJWechatLogin\CJWechatLogin.csproj", "{1927A009-4511-4531-B3A4-2848A2FA522D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home", "Home", "{2658D489-631A-49E6-A856-E120B0411C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonLibrary", "CommonLibrary", "{DAC100DA-766D-4C64-BCF2-D0232BAF7816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatCommon", "CommomLibrary\WechatCommon\WechatCommon.csproj", "{33A3AF44-6652-46AE-ACD6-B73D9641BBDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1927A009-4511-4531-B3A4-2848A2FA522D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1927A009-4511-4531-B3A4-2848A2FA522D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1927A009-4511-4531-B3A4-2848A2FA522D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1927A009-4511-4531-B3A4-2848A2FA522D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A3AF44-6652-46AE-ACD6-B73D9641BBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A3AF44-6652-46AE-ACD6-B73D9641BBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A3AF44-6652-46AE-ACD6-B73D9641BBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A3AF44-6652-46AE-ACD6-B73D9641BBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1927A009-4511-4531-B3A4-2848A2FA522D} = {2658D489-631A-49E6-A856-E120B0411C70}
+		{33A3AF44-6652-46AE-ACD6-B73D9641BBDE} = {DAC100DA-766D-4C64-BCF2-D0232BAF7816}
+	EndGlobalSection
+EndGlobal

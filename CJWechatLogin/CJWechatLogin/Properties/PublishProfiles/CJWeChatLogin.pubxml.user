@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Carson Jay\Desktop\CJWechatLogin</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CJWechatLogin.dll">
+      <publishTime>10/11/2016 15:14:08</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/13/2016 10:19:37</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/13/2016 10:19:37</publishTime>
+    </File>
+    <File Include="bin/LitJson.dll">
+      <publishTime>05/19/2014 21:40:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/13/2016 10:09:47</publishTime>
+    </File>
+    <File Include="bin/WechatCommon.dll">
+      <publishTime>10/11/2016 15:11:30</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>09/13/2016 10:19:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>09/13/2016 10:09:48</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/13/2016 10:09:46</publishTime>
+    </File>
+    <File Include="Models/CJWeChatLogin.edmx.diagram">
+      <publishTime>09/13/2016 10:19:49</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/13/2016 10:19:39</publishTime>
+    </File>
+    <File Include="Plugins/jquery-qrcode/jquery.qrcode.min.js">
+      <publishTime>09/13/2016 10:21:30</publishTime>
+    </File>
+    <File Include="Plugins/Jquery/jquery-1.10.2.min.js">
+      <publishTime>09/13/2016 10:21:30</publishTime>
+    </File>
+    <File Include="Plugins/Jquery/jquery-1.5.2.min.js">
+      <publishTime>09/13/2016 10:21:30</publishTime>
+    </File>
+    <File Include="Plugins/Jquery/jquery-1.9.1.min.js">
+      <publishTime>09/13/2016 10:21:30</publishTime>
+    </File>
+    <File Include="Plugins/Jquery/jquery.form.js">
+      <publishTime>09/13/2016 10:21:30</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/13/2016 12:40:50</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>10/11/2016 15:14:03</publishTime>
+    </File>
+    <File Include="Views/Home/loginfor.cshtml">
+      <publishTime>09/14/2016 14:50:18</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/13/2016 10:09:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/11/2016 15:05:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

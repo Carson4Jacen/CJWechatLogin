@@ -1,0 +1,11 @@
+C:\Users\Carson Jay\Desktop\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\bin\Release\WechatCommon.dll
+C:\Users\Carson Jay\Desktop\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\bin\Release\WechatCommon.pdb
+C:\Users\Carson Jay\Desktop\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\bin\Release\LitJson.dll
+C:\Users\Carson Jay\Desktop\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\obj\Release\WechatCommon.dll
+C:\Users\Carson Jay\Desktop\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\obj\Release\WechatCommon.pdb
+G:\项目整理\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\bin\Release\WechatCommon.dll
+G:\项目整理\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\bin\Release\WechatCommon.pdb
+G:\项目整理\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\bin\Release\LitJson.dll
+G:\项目整理\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\obj\Release\WechatCommon.csprojResolveAssemblyReference.cache
+G:\项目整理\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\obj\Release\WechatCommon.dll
+G:\项目整理\微信PC端登录\CJWechatLogin\CJWechatLogin\CommomLibrary\WechatCommon\obj\Release\WechatCommon.pdb

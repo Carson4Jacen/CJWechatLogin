@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PCWeChatLoginModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="WX_UserRecord">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OpenId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Nickname" Type="nvarchar(max)" />
+    <Property Name="Sex" Type="int" />
+    <Property Name="Province" Type="nvarchar(max)" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="Country" Type="nvarchar(max)" />
+    <Property Name="HeadImgUrl" Type="nvarchar(max)" />
+    <Property Name="Privilege" Type="nvarchar(max)" />
+    <Property Name="Unionid" Type="nvarchar(max)" />
+    <Property Name="uuId" Type="nvarchar(max)" />
+    <Property Name="CreateTime" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="PCWeChatLoginModelStoreContainer">
+    <EntitySet Name="WX_UserRecord" EntityType="Self.WX_UserRecord" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
